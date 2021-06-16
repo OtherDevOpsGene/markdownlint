@@ -1,4 +1,4 @@
-FROM alpine:3.11.3
+FROM alpine:latest
 # We don't directly require 'etc' - but as of recently something we
 # do requires 'etc'... and in builds of ruby on nearly any distro that
 # seems to be part of core ruby... but in alpine it seems to not be there.
